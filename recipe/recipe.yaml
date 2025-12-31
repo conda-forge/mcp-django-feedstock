@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: mcp-django
-  version: "0.12.0"
+  version: "0.13.0"
   python_check_max: "3.14"
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/mcp_django-${{ version }}.tar.gz
-  sha256: 98eeab5a0518cea917c7dd1040449078ad39d4a533f47c6fa008100ae55382c4
+  sha256: 7b1f6d9ce9f7993a81254fe32868bccf1828f70ce8a55ebfaadd2947216da54a
 
 build:
   number: 0
